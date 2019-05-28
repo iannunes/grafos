@@ -28,9 +28,6 @@
     <Compile Include="graph.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="loader.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="vertice.py">
       <SubType>Code</SubType>
     </Compile>

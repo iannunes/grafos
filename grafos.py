@@ -1,17 +1,16 @@
 import vertice
 import arc
 import graph
-import loader
 
 g = graph.graph()
 
 verticesfile = "datasets\\USA-road-d.NY.co"
 distancesfile = "datasets\\USA-road-d.NY.gr"
-timesfile = "datasets\\USA-road-d.NY.gr"
+timesfile = "datasets\\USA-road-t.NY.gr"
 
-loader.loader.loadVertices(verticesfile,g)
-loader.loader.loadDistances(distancesfile,g)
-loader.loader.loadTimes(timesfile,g)
+g.loadVertices(verticesfile)
+g.loadDistances(distancesfile)
+g.loadTimes(timesfile)
 
 
 v1 = vertice.vertice(1,1,1)
