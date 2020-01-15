@@ -21,11 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="graph.py" />
+    <Compile Include="edge.py" />
     <Compile Include="arc.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="grafos.py" />
-    <Compile Include="graph.py">
+    <Compile Include="directed_graph.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="vertice.py">
